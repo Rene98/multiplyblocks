@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Multiplyblocks">
+    <output-path>$USER_HOME$/Desktop/Servers/1.13.2/plugins</output-path>
+    <root id="archive" name="Multiplyblocks.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="module-output" name="multiplyblocks" />
+    </root>
+  </artifact>
+</component>

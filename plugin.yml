@@ -1,0 +1,6 @@
+name: MultiplyBlocks
+main: me.renes.multiplyblocks.MultiplyBlocks
+version: 1.0
+api-version: 1.13
+commands:
+  multiBlocks:

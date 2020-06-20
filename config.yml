@@ -1,0 +1,111 @@
+disabled-crafts:
+  - HOPPER
+  - DARK_PRISMARINE
+  - PRISMARINE
+  - PRISMARINE_BRICKS
+  - NETHER_BRICKS
+  - NETHER_WART_BLOCK
+messages:
+  uncraftable: "&cYou are not allowed to craft this item!"
+debug: false
+CustomCraftings:
+  compressedMin:
+    recipe:
+      - "xox"
+      - "obo"
+      - "xox"
+    components:
+      x:
+        material: EMERALD_BLOCK
+      o:
+        material: DIAMOND_BLOCK
+      b:
+        material: ENDER_EYE
+    result:
+      material: PRISMARINE
+      displayname: "&cCompressed &2Minerals"
+      itemLore:
+        - "&7This block contains minerals"
+        - "&7The worth of this block is"
+        - "&7Equal to 30 island levels"
+        - "&7Place it down to aquire the level"
+  2compressedMin:
+    recipe:
+      - "xox"
+      - "obo"
+      - "xox"
+    components:
+      x:
+        material: EMERALD_BLOCK
+      o:
+        material: PRISMARINE
+      b:
+        material: ENDER_EYE
+    result:
+      material: PRISMARINE_BRICKS
+      displayname: "&bDouble &cCompressed &2Minerals"
+      itemLore:
+        - "&7This block contains minerals"
+        - "&7The worth of this block is"
+        - "&7Equal to 110 island levels"
+        - "&7Place it down to aquire the level"
+  3compressedMin:
+    recipe:
+      - "xox"
+      - "obo"
+      - "xox"
+    components:
+      x:
+        material: EMERALD_BLOCK
+      o:
+        material: PRISMARINE_BRICKS
+      b:
+        material: ENDER_EYE
+    result:
+      material: DARK_PRISMARINE
+      displayname: "&bTriple &cCompressed &2Minerals"
+      itemLore:
+        - "&7This block contains minerals"
+        - "&7The worth of this block is"
+        - "&7Equal to 450 island levels"
+        - "&7Place it down to aquire the level"
+  4compressedMin:
+    recipe:
+      - "xox"
+      - "obo"
+      - "xox"
+    components:
+      x:
+        material: EMERALD_BLOCK
+      o:
+        material: DARK_PRISMARINE
+      b:
+        material: ENDER_EYE
+    result:
+      material: NETHER_BRICKS
+      displayname: "&bQuadrouple &cCompressed &2Minerals"
+      itemLore:
+        - "&7This block contains minerals"
+        - "&7The worth of this block is"
+        - "&7Equal to 1800 island levels"
+        - "&7Place it down to aquire the level"
+  5compressedMin:
+    recipe:
+      - "xox"
+      - "obo"
+      - "xox"
+    components:
+      x:
+        material: EMERALD_BLOCK
+      o:
+        material: NETHER_BRICKS
+      b:
+        material: ENDER_EYE
+    result:
+      material: NETHER_WART_BLOCK
+      displayname: "&bQuintouple &cCompressed &2Minerals"
+      itemLore:
+        - "&7This block contains minerals"
+        - "&7The worth of this block is"
+        - "&7Equal to 7200 island levels"
+        - "&7Place it down to aquire the level"
